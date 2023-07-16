@@ -28,7 +28,7 @@ def ping_server() -> None:
 def get_rps(r: requests.Response) -> float:
     """Return the live RPS value from the last request."""
     request_time = r.elapsed
-    rps = int(S1 / request_time)
+    rps = S1 / request_time
     return rps
 
 
