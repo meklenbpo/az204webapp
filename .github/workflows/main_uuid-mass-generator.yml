@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'uuid-mass-generator'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7A681F93A7C54F9D8CF1E5FC47A9F9B4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7672A8CEE62F4702AE06EB52659699CA }}
