@@ -16,4 +16,6 @@ If required we can run it in parallel processes.
 - A local client is pinging the server and return last value and also computes RPS.
 
 ## Deploy the App to Azure (Different Tiers)
+At this point the app doesn't work in Azure. I deployed it using Github Actions (as suggested in Azure Portal) while tutorial suggested Azure CLI or local git or zip file. Will need to try all of those methods to gain familiarity.
+
 ## Run the load tests and compare performance
