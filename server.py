@@ -19,10 +19,15 @@ def expensive_function():
     return ul[-1]
 
 
+def inexpensive_function():
+    """Simulate a short-running function."""
+    return 'Hello World!'
+
+
 app = FastAPI()
 
 @app.get('/')
 def index():
     """Default server endpoint."""
-    msg = expensive_function()
+    msg = inexpensive_function()
     return {'message': msg}
